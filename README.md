@@ -2,6 +2,8 @@
 
 This is a demo project shows how to create a interactive graphic page using react based graphic framework ([react-vis](https://github.com/uber/react-vis)) and component framework ([reactstrap](https://github.com/reactstrap/reactstrap))
 
+see live example: https://syt123450.github.io/graphic-component-demo/
+
 ## Setup
 
 ps. You need to have npm in your environment.
