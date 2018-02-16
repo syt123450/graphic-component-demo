@@ -1,9 +1,11 @@
 import React, { Component }  from 'react';
 import ReactDOM from "react-dom";
 import {
+
     XAxis,
     YAxis,
     XYPlot
+
 } from 'react-vis';
 import Candlestick from '../lib/boxplot';
 
@@ -35,7 +37,9 @@ export default class CandlestickController extends Component {
     }
 
     render() {
+
         return (
+
             <div className="candlestick-example">
                 <div className="chart">
                     <XYPlot height={300} width= {300}
@@ -50,8 +54,11 @@ export default class CandlestickController extends Component {
                     </XYPlot>
                 </div>
             </div>
+
         );
+
     }
+
 }
 
 CandlestickController.data = [
