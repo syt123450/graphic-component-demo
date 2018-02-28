@@ -20,4 +20,4 @@ click button to see different graphic and data.
 The screen shot below is how the demo will look like in your browser.
 ![screenshot-url]
 
-[screenshot-url]: https://github.com/syt123450/graphic-component-demo/blob/master/assets/demo.png
+[screenshot-url]: https://github.com/syt123450/graphic-component-demo/blob/master/assets/screenshot.png
