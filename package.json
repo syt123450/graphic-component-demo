@@ -2,29 +2,34 @@
   "name": "graphic-component-demo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://syt123450.github.io/<project-repo>",
+  "homepage": "https://syt123450.github.io/graphic-component-demo",
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.4",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-proptypes": "^1.0.0",
     "react-scripts": "1.1.1",
-    "react-vis": "^1.8.2",
-    "reactstrap": "^5.0.0-beta"
+    "react-toolbox": "^2.0.0-beta.12",
+    "react-toolbox-themr": "^1.0.2",
+    "react-vis": "^1.8.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "rollup-build": "rollup -c",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "toolbox": "react-toolbox-themr"
   },
   "devDependencies": {
+    "axios": "^0.18.0",
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-env": "^1.6.1",
+    "gh-pages": "^1.1.0",
     "rollup": "^0.55.5",
     "rollup-plugin-babel": "^3.0.3",
     "rollup-plugin-commonjs": "^8.3.0",
-    "rollup-plugin-node-resolve": "^3.0.2"
+    "rollup-plugin-node-resolve": "^3.0.3"
   }
 }

@@ -36,7 +36,7 @@
 
 }
 
-.box-button {
+.box-button._2Agdx {
 
   position: fixed;
   left: 200px;
@@ -45,7 +45,7 @@
 
 }
 
-.scatter-button {
+.scatter-button._2Agdx {
 
   position: fixed;
   left: 200px;
@@ -54,7 +54,7 @@
 
 }
 
-.bar-button {
+.bar-button._2Agdx {
 
   position: fixed;
   left: 200px;
@@ -63,11 +63,19 @@
 
 }
 
-.line-button {
+.line-button._2Agdx {
 
   position: fixed;
   left: 200px;
   width: 150px;
   top: 250px;
 
+}
+
+.scatter-10K._2Agdx {
+
+  position: fixed;
+  left: 370px;
+  width: 100px;
+  top: 150px;
 }

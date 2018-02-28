@@ -8,7 +8,7 @@ import {
     YAxis,
     VerticalGridLines,
     HorizontalGridLines,
-    MarkSeries
+    MarkSeriesCanvas
 
 } from 'react-vis';
 
@@ -56,20 +56,12 @@ export default class scatterController extends Component {
                 <HorizontalGridLines />
                 <XAxis />
                 <YAxis />
-                <MarkSeries
+                <MarkSeriesCanvas
                     className = "mark-series-example"
                     strokeWidth = { 2 }
                     opacity = "0.8"
                     sizeRange = { [ 5, 15 ] }
-                    data = { [
-
-                        { x: 1, y: 10, color: 0xFF0000,  size: 30 },
-                        { x: 1.7, y: 12, size: 10 },
-                        { x: 2, y: 5, size: 1 },
-                        { x: 3, y: 15, size: 12 },
-                        { x: 2.5, y: 7, size: 4 }
-                        
-                    ] }/>
+                    data = { scatterController.data }/>
             </XYPlot>
 
         );
@@ -77,3 +69,13 @@ export default class scatterController extends Component {
     }
 
 }
+
+scatterController.data = [
+
+    { x: 1, y: 10, color: 0xFF0000,  size: 30 },
+    { x: 1.7, y: 12, size: 10 },
+    { x: 2, y: 5, size: 1 },
+    { x: 3, y: 15, size: 12 },
+    { x: 2.5, y: 7, size: 4 }
+
+];
